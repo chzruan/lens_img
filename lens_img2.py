@@ -91,6 +91,7 @@ plt.imshow(map_data)
 plt.imshow(noise_map,cmap='bwr',vmin=-1e-4,vmax=1e-4)
 #plt.imshow(noise_map)
 #plt.show()
+
 plt.axis('off')
 plt.colorbar()
 plt.savefig('map.png')
